@@ -1,0 +1,61 @@
+CARIBÉ TRÁFEGO PAGO — SITE DE PORTFÓLIO
+========================================
+
+O QUE É
+-------
+Um site de uma página (portfólio) para captar autoras independentes.
+Tudo estático: HTML + CSS + JavaScript. Não precisa de servidor nem instalação.
+
+ARQUIVOS
+--------
+  index.html        -> a página
+  styles.css        -> o visual
+  script.js         -> animações, contadores, formulário e o "ampliar" das imagens
+  assets/logo.jpg   -> sua logo (usada na página e como ícone)
+  assets/rankings/  -> as imagens dos TOPs da Amazon (pódio dos livros)
+  LEIA-ME.txt       -> este arquivo
+
+COMO ABRIR (no seu computador)
+------------------------------
+Dê dois cliques em "index.html". Ele abre no navegador.
+(Precisa de internet na primeira vez, porque as fontes vêm do Google Fonts.)
+
+COMO PUBLICAR DE GRAÇA (escolha UMA opção)
+------------------------------------------
+1) Netlify Drop (o mais fácil, sem conta técnica):
+   - Acesse:  https://app.netlify.com/drop
+   - Arraste a PASTA "site" inteira para a janela.
+   - Em segundos você recebe um link público (ex.: seunome.netlify.app).
+
+2) Vercel:
+   - Crie conta em https://vercel.com
+   - "Add New > Project" e suba a pasta "site".
+
+3) GitHub Pages:
+   - Suba a pasta para um repositório e ative Pages nas configurações.
+
+DOMÍNIO PRÓPRIO (opcional)
+--------------------------
+Tanto Netlify quanto Vercel deixam você conectar um domínio
+(ex.: caribetrafego.com.br) nas configurações do projeto.
+
+O QUE EDITAR DEPOIS (se quiser)
+-------------------------------
+- WhatsApp: procure por  5579998036643  em index.html e script.js
+- Instagram: procure por  caribetrafego  em index.html
+- E-mail: procure por  caribetrafego@gmail.com  em index.html
+- Textos e números dos cases: estão direto no index.html (seções
+  "resultados" e "cases").
+- TOPs da Amazon (pódio): no index.html, bloco "Pódio na Amazon" dentro
+  da seção "cases". Para trocar/adicionar um livro, copie a nova imagem
+  para assets/rankings/ e duplique um bloco <a class="trophy"...>,
+  ajustando o caminho da imagem, a posição (Top N), o título e a autora.
+  Clicar na imagem abre ela ampliada (lightbox).
+
+CONTATO DO FORMULÁRIO
+---------------------
+Quando a autora preenche o formulário e clica em "Enviar no WhatsApp",
+o site abre o seu WhatsApp já com a mensagem escrita (nome, livro e fase).
+Os leads caem direto na sua conversa — sem depender de back-end.
+
+— Feito sob medida a partir do seu material da marca Caribé.

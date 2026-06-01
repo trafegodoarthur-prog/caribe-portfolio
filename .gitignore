@@ -1,0 +1,13 @@
+# dependências / build
+node_modules/
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# arquivos temporários de preview/screenshot
+__*
