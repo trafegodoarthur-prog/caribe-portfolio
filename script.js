@@ -169,11 +169,11 @@
       var livro = (document.getElementById("livro").value || "").trim();
       var fase = document.getElementById("fase").value || "";
 
-      var msg = "Olá, Caribé! Vim pelo site.\n\n";
-      msg += "Meu nome é " + (nome || "(autora)") + ".\n";
-      if (livro) msg += "Livro/tema: " + livro + ".\n";
-      msg += "Fase atual: " + fase + ".\n\n";
-      msg += "Quero receber a proposta estratégica e o mídia kit. :)";
+      var msg = "Olá, Caribé! Vim pelo site. ";
+      msg += "Meu nome é " + (nome || "(autora)");
+      msg += livro ? " e meu livro é " + livro + "." : ".";
+      msg += " Fase: " + fase + ".";
+      msg += " Quero conversar sobre o tráfego do meu lançamento.";
 
       var url = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
       window.open(url, "_blank", "noopener");
