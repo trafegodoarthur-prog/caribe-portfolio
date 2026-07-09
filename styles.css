@@ -239,7 +239,7 @@ em{font-style:italic}
 .espelho__hook{margin-top:1.6rem;font-family:var(--display);font-weight:700;font-size:1.2rem;color:var(--razz-deep)}
 
 /* ---------- stats (o chart) ---------- */
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:3rem;
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin-top:3rem;
   background:var(--line-plum);border:1px solid var(--line-plum)}
 .stat{background:var(--plum);padding:clamp(1.5rem,3vw,2.6rem);min-height:200px;display:flex;flex-direction:column;justify-content:flex-end;
   transition:background .4s}
