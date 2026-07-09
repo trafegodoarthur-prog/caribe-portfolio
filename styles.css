@@ -234,9 +234,9 @@ em{font-style:italic}
   font-family:var(--serif);font-style:italic;font-weight:500;line-height:1.25;
   font-size:clamp(1.35rem,1.1rem + 1.6vw,2.2rem);color:var(--ink-paper);max-width:34ch}
 .pullquote strong{font-family:var(--display);font-style:normal;font-weight:800;color:var(--razz-deep)}
-.espelho__after{max-width:62ch;font-size:1.08rem;color:var(--soft-paper)}
-.espelho__after p+p{margin-top:1.1rem}
-.espelho__hook{margin-top:1.6rem;font-family:var(--display);font-weight:700;font-size:1.2rem;color:var(--razz-deep)}
+.espelho__body{max-width:60ch;margin-top:1.6rem;font-size:1.12rem;color:var(--soft-paper)}
+.espelho__body p+p{margin-top:1.1rem}
+.espelho__hook{margin-top:1.6rem;font-family:var(--display);font-weight:700;font-size:1.18rem;color:var(--razz-deep)}
 
 /* ---------- stats (o chart) ---------- */
 .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin-top:3rem;
